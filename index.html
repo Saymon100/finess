@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>historinha</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>voce foi convidado para treinar perna,o que vai resonder</p>
+            <button class="btn-proximo" data-proximo="1">treino de perna doi,mas boraa</button>
+            <button class="btn-proximo" data-proximo="2">nao vou,sou frango no treino de perna</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>voce foi ao treino de perna,so que ele pega mais peso que voce.</p>
+            <button class="btn-proximo" data-proximo="3">pegar mais peso para mostra que e forte</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>peguei mais peso que ele so que senti minha perna doer,devo continuar?</p>
+            <button class="btn-proximo" data-proximo="5">sim,colocar mais 10kg</button>
+            <button class="btn-proximo" data-proximo="6">nao pegar,se nao vai quebrar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>a perna quebrou,pedir para ele te levar no medico.</p>
+            <button class="btn-proximo" data-proximo="7">pedir para levar ao medico </button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você e levado ao hospital desmaiado e no sonho voce imagina ter conseguido levantar o peso.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>acordei depois de ter ficado de coma e decidi ir para a praia no havai nadar com os golfinhos </p>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
